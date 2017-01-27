@@ -10,3 +10,15 @@ console.log("JS file is connected to HTML! Woo!")
 		} else {
 			alert('Sorry, try again.');
 		}
+
+		var createCards = function() {
+			var gameBoard=document.getElementById('game-board');
+
+			for (i = 0; i < 4; i++) {
+				var newCard=document.createElement('div');
+				newCard.className="card";
+				gameBoard.appendChild(newCard);
+			}
+		}
+		createCards();
+
