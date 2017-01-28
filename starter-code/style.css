@@ -31,6 +31,11 @@ footer {
 	text-align: center;
 }
 
+img {
+	height: 200px;
+	width: 150px;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -63,5 +68,10 @@ footer {
 .content {
 	width: 50%;
 	font-size:1.2em;
+	text-align: center;
+}
+
+.button {
+	width:36%;
 	text-align: center;
 }
